@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "ViewBag Example";
+    var name = ViewBag.name;
+    var list = ViewBag.list;
+}
+
+<h1>ViewBag Example</h1>
+<p>@name</p>
+<hr />
+<h3>ViewBag List Items</h3>
+<div style ="display: flex; flex-direction:row; align-items:center;">
+@foreach(var listitem in list){
+    <p style="padding:5px">@listitem</p>
+}
+</div>
+<hr />

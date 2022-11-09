@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "ViewModelExample";
+}
+@model List<First_Project.Controllers.Ornek.Product>;
+
+<h1>ViewModelExample</h1>
+@foreach (var item in Model)
+{
+    <p>@item.Id - @item.Name</p>
+}
+
