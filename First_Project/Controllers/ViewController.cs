@@ -20,5 +20,13 @@ namespace First_Project.Controllers
         { 
             return View(); 
         }
+        public IActionResult JavaScriptExample()
+        {
+            return View();
+        }
+        public IActionResult CssExample()
+        {
+            return View();
+        }
     }
 }
