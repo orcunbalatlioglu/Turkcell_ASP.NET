@@ -12,5 +12,13 @@ namespace First_Project.Controllers
         {
             return View();
         }
+        public IActionResult RenderSectionExample()
+        {
+            return View();
+        }
+        public IActionResult PartialViewExample() 
+        { 
+            return View(); 
+        }
     }
 }
