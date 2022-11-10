@@ -22,14 +22,14 @@ namespace First_Project.Controllers
         {
             return View();
         }
-        public class Product
+        public class Product2
         {
             public string Name { get; set; }
             public int Id { get; set; }
         }
         public IActionResult ViewModelExample()
         {
-            var productList = new List<Product>()
+            var productList = new List<Product2>()
             {
                 new(){Id = 1,Name="A"},
                 new(){Id = 2,Name="B"},
