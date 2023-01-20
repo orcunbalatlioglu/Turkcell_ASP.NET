@@ -37,6 +37,11 @@ namespace First_Project.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult Save()
+        {
+            return View();
+        }
         public IActionResult Update()
         {
             return View();

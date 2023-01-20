@@ -1,7 +1,20 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Add";
 }
 
 <h1>Ürün Ekleme</h1>
-
+<form asp-controller="Product" asp-action="Save">
+    <label for="floatingName">Ürün İsmi</label>
+    <input type="text" id="floatingName" name="Name" />
+    <br />
+    <label>Ürün Fiyat</label>
+    <input type="text" name="Price" />
+    <br />
+    <label>Ürün Stoğu</label>
+    <input type="text" name="Stock" />
+    <br />
+    <label>Ürün Rengi</label>
+    <input type="text" name="Color" />
+    <br />
+    <button type="submit">Ürün Kaydet</button>
+</form>
